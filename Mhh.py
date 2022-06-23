@@ -254,7 +254,7 @@ def menu(my_name,my_id):
 	print('%s[%s01%s] %sﺪﺣﺍﻭ ﺏﺎﺴﺣ ﻕﺍﺮﺘﺧﺍ ﻦﻴﻤﺨﺗ'%(P,P,P,P));time.sleep(0.02)
 	print('%s[%s02%s] %sﺏﺎﺴﺣ ﻦﻣ ﺮﺜﻛﺍ ﻦﻴﻤﺨﺗ %sCRACK'%(P,P,P,P,P));time.sleep(0.02)
 	print('%s[%s03%s] %sMy Facebook accountL%s'%(P,P,P,P,P));time.sleep(0.02)
-	print('%s[%s04%s] %'%(P,P,P,P,P));time.sleep(0.02)
+	print('%s[%s04%s] %sSUBSCRIBED ON MY YOUTUBE%s'%(P,P,P,P,P));time.sleep(0.02)
 	print('%s[%s06%s] %sEXIT%s'%(P,P,P,M,N));time.sleep(1)
 	jh = input(P+'['+P+'●'+P+']  MENU  ')
 	if jh in ['1','01']:
