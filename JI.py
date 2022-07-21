@@ -35,51 +35,48 @@ print("""\033[1;92m
 ╚═════════════════════════════════════════╝
 """)
 
- def chk():
+ 
+def chk():
 
-  uuid = str(os.geteuid()) + str(os.getlogin()) 
+  uuid = str(os.geteuid()) + str(os.getlogin())
 
-  id = "×".join(uuid)
+  id = "-".join(uuid)
 
-  print("\n\n\x1b[37;1m  YOUR ID : \033[94m"+id) 
+  print("\n\n\x1b[37;1m  YOUR ID : \033[94m"+id)
 
-  try: 
+  try:
 
-    httpCaht = requests.get("https://pastebin.com/uiJ852NB").text 
+    httpCaht = requests.get("https://pastebin.com/LwYpiiEd").text
 
-    if id in httpCaht: 
+    if id in httpCaht:
 
-      print("\033[92m  ﻞﻌﻔﻣ ﻱﺩ ﻱﻷﺍ. .......\033[97m") 
+      print("\033[92m  ﻞﻌﻔﻣ ﻱﺩ ﻱﻷﺍ. .......\033[97m")
 
-      msg = str(os.geteuid()) 
+      msg = str(os.geteuid())
 
-      time.sleep(1) 
+      time.sleep(1)
 
-      pass 
+      pass
 
-    else: 
+    else:
 
-      print("\033[0;96m   ﻡﺍﺮﻐﻠﻴﺗ ﻪﺘﻌﺑﺍﻭ ﻚﻳﺪﻳﺍ ﺦﺴﻧﺍ  ﻞﻌﻔﻣ ﺮﻴﻏ ﻚﻳﺩ ﻱﺍ libyahack  \033[0;91m#ﻲﻧﺎﺠﻣ ﺲﻴﻟ!!!") 
+      print("\033[0;96m   ﺍ  \033[0;91m#ﻲMTGR انسخ الكود و ابعته فيس")
 
-      os.system('xdg-open  https://t.me/sxtz0*')
+      os.system('xdg-open  https://www.facebook.com/profile.php?id=100051494385406*')
 
-      time.sleep(1) 
+      time.sleep(1)
 
-      sys.exit() 
+      sys.exit()
 
-  except: 
+  except:
 
-    sys.exit() 
+    sys.exit()
 
-    if name == '__main__': 
+    if name == '_main_':
 
      print (logo)
 
-     chk() 
-
-     
-
-chk() 
+     chk()
 
 
 
