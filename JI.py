@@ -1,7 +1,9 @@
-# Obfuscated with PyObfuscate
-# https://www.github.com/htr-tech
-# Time : Sun Jul 17 11:16:12 2022
-# -------------------------------
+import requests
+import os
+import time
+import rich
+import sys
+
 print("""\033[1;92m
 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣠⣤⣤⣤⠴⠶⠶⠶⠶⠒⠾⠿⠿⠿⣛⡛⠛⠛⠛⠛⠛⠻⠿⡷⠶⠶⢶⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -32,12 +34,6 @@ print("""\033[1;92m
 ║ COPYRIGHT  : BR3K LY                                            
 ╚═════════════════════════════════════════╝
 """)
-
-import requests
-import rich
-import bs4
-import os
-import time
 
  def chk():
 
