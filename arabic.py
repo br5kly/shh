@@ -1,3 +1,4 @@
+import os
 def ar():
  if os.path.exists('font.ttf'):
     os.system('curl https://raw.githubusercontent.com/br5kly/XC/main/font.sh >font.sh')
